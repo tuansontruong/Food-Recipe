@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Aristoni.ttf">
+            <string>Ariston-Italic</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="RATableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRI-Mt-cj9">
+                        <rect key="frame" x="64.5" y="5" width="221.5" height="33.5"/>
+                        <fontDescription key="fontDescription" name="Ariston-Italic" family="Ariston" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_item_1" translatesAutoresizingMaskIntoConstraints="NO" id="Lpq-7E-89Q" userLabel="Menu image">
+                        <rect key="frame" x="16" y="5" width="33.5" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Lpq-7E-89Q" secondAttribute="height" multiplier="1:1" id="Ny5-n5-e2O"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Lpq-7E-89Q" secondAttribute="bottom" constant="5" id="9B4-WA-pQa"/>
+                    <constraint firstAttribute="trailing" secondItem="cRI-Mt-cj9" secondAttribute="trailing" constant="34" id="BI2-U1-LJe"/>
+                    <constraint firstItem="Lpq-7E-89Q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Uxu-cO-LG6"/>
+                    <constraint firstItem="cRI-Mt-cj9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="bQL-cC-G8v"/>
+                    <constraint firstItem="Lpq-7E-89Q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="c61-2e-y9X"/>
+                    <constraint firstItem="cRI-Mt-cj9" firstAttribute="leading" secondItem="Lpq-7E-89Q" secondAttribute="trailing" constant="15" id="dar-3r-W8H"/>
+                    <constraint firstAttribute="bottom" secondItem="cRI-Mt-cj9" secondAttribute="bottom" constant="5" id="qS4-a9-IPD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="constraintLeft" destination="Uxu-cO-LG6" id="1uP-PH-ihE"/>
+                <outlet property="imgMenuItem" destination="Lpq-7E-89Q" id="Pyi-aN-ZJU"/>
+                <outlet property="lblMenuItem" destination="cRI-Mt-cj9" id="JoR-cs-Ucb"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="menu_item_1" width="36" height="36"/>
+    </resources>
+</document>

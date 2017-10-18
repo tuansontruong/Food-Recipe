@@ -1,0 +1,1277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0165BA84B0F069B06913B8816B01485E /* XCDYouTubeVideoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CE71D397DF593110AFE8971FDE6720 /* XCDYouTubeVideoOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A1C8BD07ED35F36B394B3DB9A8DF93D /* XCDYouTubeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F536F7B84C7E48BC55E56EADD563FCE7 /* XCDYouTubeOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F5B6AC14F58EABEB001C30A452D5268 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A477AAD24F082E988882FBA490BF53F /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		10EA6BB10B19B8B24361A48C9C1589E2 /* CRToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45F99A38C5FE2956A46E58E35B41C1 /* CRToastConfig.m */; };
+		1494EFC8041CD9549C9999438883C4AD /* RATreeNode_ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 76756FEFD48C39585FE452C1CF376015 /* RATreeNode_ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14CF2812E4086DE78513F6831828BA35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85451E8985C7D01FAD682DEB4FFA45E2 /* Foundation.framework */; };
+		18A100286FAB5923F6DB752899733A38 /* RATreeNodeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E69AEC6D5A5759342FB2459D34AFC2 /* RATreeNodeItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18DA80D801FEC3C54F6CD9C95E567CF9 /* RATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFFEF6AAF94B32F2F01A8B1336C330 /* RATableView.m */; };
+		1E04E83623789E01EB3D44E0864941E5 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C26294FED2C575762DDC31B273D19 /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2622D0E3CAD98076B808BAF2C539638C /* CRToastLayoutHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BFC0327F6EA661326F5C7D0A6B87426 /* CRToastLayoutHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3311808D5190FB0E10B3974FBEBC620C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85451E8985C7D01FAD682DEB4FFA45E2 /* Foundation.framework */; };
+		383884C9BEA298CF4FCF90CEC1723C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85451E8985C7D01FAD682DEB4FFA45E2 /* Foundation.framework */; };
+		3F753790B7095FCC2026CDDB40E82F9D /* RATreeNodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD3EA204F74B071325BE12EFCB785F3 /* RATreeNodeItem.m */; };
+		3FE2F67A4BB1AABFBDD3407DD261B614 /* RABatchChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E986C473517F1CF9402C9671371B5F /* RABatchChanges.m */; };
+		41C6C546166A48183BC43BC34E8ECFBE /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838619432834BDF9653759FFCE7ACED /* XCDYouTubeVideoOperation.m */; };
+		4362D5E9A833117C86C4B8F01F515349 /* XCDYouTubeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4745694FE7B97CB548A3B51435775B19 /* XCDYouTubeLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B8F7FF76720CBFC782BF18880B6039 /* RATreeNodeItem+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D0BE21EC7B455733F355114B97C611E3 /* RATreeNodeItem+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48D12F51BE7C4FE0013DC72CA3141C6E /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0883D9456F5497AFC4EB59F578C9EA29 /* XCDYouTubeLogger.m */; };
+		499E5A5E8F45A0E6FC10DBAB17BBB66E /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = 8782D20D03252E81D992DFAF775DE52C /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B387B7E701153F9B7EEA5BB2FBECF91 /* RABatchChangeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F451A90E49ADF78B4446BD0154F834B6 /* RABatchChangeEntity.m */; };
+		4BA03C0AF6AE2D5057BC2C13287F11F5 /* RATreeNodeItem+ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C489666B983509F8E2C950D5D06FA5D2 /* RATreeNodeItem+ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D067C25E11B77A40849965454AD3F5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FBE46A12337139605B233B0C6880E4 /* UIKit.framework */; };
+		4FF21BD2926E19D42476E9325DD99DBE /* RATreeNodeCollectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = F13C080A29EFEF3ECDC8F7B4C5D86AC0 /* RATreeNodeCollectionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5307952F17A5D4C3AF604B59D0402468 /* XCDYouTubeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A647E615213994FE0A6D51B67350C513 /* XCDYouTubeClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57C3A30C16B40F39275E584DFC2525AB /* RATreeView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D5846CD83EF6071F8D9CD8EF5C7672FB /* RATreeView+Private.m */; };
+		585DE37ACFDB0B746883F6F7CA6790BD /* RATreeView+TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D1A707BC4297FCAE80725BC6749E46 /* RATreeView+TableViewDataSource.m */; };
+		59EC9DF41F0A9BB1D3118BE0286A23A4 /* RATreeView+TableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B57BF029F5E14FB1B2B9E847D21DCE3 /* RATreeView+TableViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E9B10BFED1D41EEAD8427BC22E02121 /* XCDYouTubeVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 58136E5CD1ACD4D7EC4B73A7A79F51E4 /* XCDYouTubeVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5B558532C683F858529B73DC185539 /* CRToastViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D388FCFE62514F06979A39680B3335B8 /* CRToastViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65F0F441949DFC923D1BC88D0B5A43E6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3105A4FBCF6D889EC34403F40196C32A /* JavaScriptCore.framework */; };
+		673C640B3DE8712FAD0D007B343A9688 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EEFBCB34FE7787B8F365259169A410 /* XCDYouTubePlayerScript.m */; };
+		68FF294BDD19243FF2548D381CEF4A89 /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3836452954A2F4C4B71B386BA21F26 /* CRToastView.m */; };
+		6D6120B32F52C136CB6D8E06CEA4FD3C /* Pods-iost3h-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DECC279F1F4CF744A7269A35A34AC8CA /* Pods-iost3h-dummy.m */; };
+		6E4083EE85F90515D2A5F5D8F50C1A0A /* CRToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1AA98BAD30A20895F84C2D1ADB10B /* CRToast-dummy.m */; };
+		740275241245444929B51C5C824BC87F /* JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AC3C9CAB7D073CBA388877E2B635 /* JVFloatLabeledTextField-dummy.m */; };
+		74FBD5481D866E01A752C2F1FF8CA9F9 /* RATreeView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C4012C078AD14998E7FAF3FB08E2631A /* RATreeView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75B9287485714913A1A259FEA70BE606 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BCD6848A7639ABBF6A1865F2D8A12D /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		766777EEA6ED755492051F754BE3FF15 /* RABatchChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = A852CA9B7F3D4EC7E1D3B7C3D0885CA2 /* RABatchChanges.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B21F3E6F8AC357B7EC82B3EEC3141CB /* SWRevealViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F46309C3D24F2DD1BDBCF8FDFABF9 /* SWRevealViewController-dummy.m */; };
+		7CA5962EE2E4B06D784150F2C7815C9D /* RATreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A552361A808A175D07711F64C16A86D9 /* RATreeNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FA5AA10CD2E6C635B463E0495E0DCF0 /* RATreeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B72366B75EBFB2FFBB81250460675F /* RATreeView-dummy.m */; };
+		828AE01FAA870402CB614AF53E2E21DC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25D6E233C77DCDD259C786AFA35F7C6 /* SWRevealViewController.m */; };
+		85F16DCC60950257226B83027D668836 /* CRToastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CFCA00422E06B5D4D2CDA578F6E251 /* CRToastWindow.m */; };
+		865BA8B83459A24EE4F26BEED02F0F0D /* RATableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41AA183B0B3D94CD6B7F2A828729C3C /* RATableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BBAECB8ED386D139D637759A1501CAA /* XCDYouTubePlayerScript.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C0C6BADAA295ACCEB134E5D01D7616 /* XCDYouTubePlayerScript.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C3C27FFD4B270EC7E8AF5E7C4051A09 /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B47A593E92220B20368C70C9A4ECF1E /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4941F38DDEA72B6012F7F30AE43478 /* CRToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28999904F0E16CCFBE07215DA649A6D /* CRToastViewController.m */; };
+		8FD4304885DCB180618FACCA812A1794 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7542CEBAA26682C57E22FBFA2F802E /* XCDYouTubeVideo.m */; };
+		91FF4265A0B18662CDAA57B176823464 /* RABatchChangeEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC4479469991213F91CD234BBF0C2F8 /* RABatchChangeEntity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		938FADDF76D2787772B4745C08FCD470 /* XCDYouTubeLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7722CE17B0D6C34274F585FFA5334D /* XCDYouTubeLogger+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		963781AF3045B68E6B0DAF9F3BF95D59 /* XCDYouTubeVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD23AE26A83B21D6860B63391FA09FB /* XCDYouTubeVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DEBD77449E7AC3BDC531DF6B714FE6C /* RATreeView+Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9BAF14695BDF42347EED4656BF0929 /* RATreeView+Enums.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0C216A026C50157E6F9403085A85B12 /* RATreeNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C489858679698E4BD1C135FAFCCFA3 /* RATreeNodeController.m */; };
+		A1246F6FB61C16B802900DFA3B5E482F /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 87896C6273F9C8D5335D3D62DF185C7B /* XCDYouTubeClient.m */; };
+		A2E47238A2AD41693459BD1379209325 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66FC543DDEC96AD54D71E10C41B082 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */; };
+		A403DD64404E1D2755A8D15E03C7DB6A /* RATreeNodeCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FA268B41692D8DA4315F1AED5E92F7 /* RATreeNodeCollectionController.m */; };
+		A4E02BC88FDD3F4B26F5D23C736C887B /* RATreeView_ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 68CC5161626BD13FB10D0853836EA3CF /* RATreeView_ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A65B1269FBB1BE3D114C06CB209FD396 /* XCDYouTubeVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFD2202F5095DE188741372C9CEFE1C /* XCDYouTubeVideo+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB6A83D1B2580C77216C8159E09486CA /* XCDYouTubeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F05A30DDB7A4E89C00B9C53131CE9C9A /* XCDYouTubeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABADDDD8975DC41B45491BFDE30435C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0722A058984B24CC24C9348453A3DAA1 /* CoreGraphics.framework */; };
+		AC3A5E38E9A285B7DF5963AD70DC7D4B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4458BE25695845D9623BD383F18BED88 /* MediaPlayer.framework */; };
+		AF484620687B0EFCBC62E75E645BFF6A /* RATreeView+Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C97E6D8771AC731EEFD5DFFB5C100E /* RATreeView+Enums.m */; };
+		B57B42090493D66BBD64613266840F8D /* CRToastWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 057BB654C929A6C312F5C3777012C64A /* CRToastWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B63D1A15B47D6952709EC075A77B5EA9 /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBC2D846046E728EB7326815AAC993 /* CRToastManager.m */; };
+		B6F25932906A453FB9757F51FDFB2F0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85451E8985C7D01FAD682DEB4FFA45E2 /* Foundation.framework */; };
+		BC53CA176ECFC56EBC7D8B2B279FC1E7 /* RATreeNodeItem+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F0F0184B8345B05E2D19CCA437A4 /* RATreeNodeItem+Private.m */; };
+		BF0F9F6029317F140D010FDB63DFCE1A /* XCDYouTubeVideoWebpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 17728624F11992D7659D9029440AC110 /* XCDYouTubeVideoWebpage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF1457EB1B17450BDDFE523565B054C2 /* RATreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468BD78D51A3F8CAB6DD58AE56563FF4 /* RATreeView.m */; };
+		C02E12577ECE14C0F87D9B3DDEEB471E /* CRToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = B52680B79A6EA9977030EB4F81534966 /* CRToastView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2E170E9FA4E54A80BCE013EA5D0AF6C /* CRToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEA0FA9E59BC2EF41DC57116BD171BB /* CRToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C380DF3A3C97B550160E450E6CF5ED21 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA8E02A58333F31567AC86E9CA1BAF /* XCDYouTubeVideoWebpage.m */; };
+		C7BAC555A9461105A02FFCD0A92E85B2 /* CRToastManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 20EA376BDC44D16B1DB0551261B58739 /* CRToastManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C896DE2E73DA9E8530B50C2645F3138D /* RATreeView+TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79CB53B9CC80C9DED3983D4F91857B /* RATreeView+TableViewDelegate.m */; };
+		CD7324F7725A083EDF9FBD476DA9C8BB /* RATreeView+TableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B6CE96C5325B452BB4F184D47478A3 /* RATreeView+TableViewDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFF5177687FB45610BF82F645C636DFA /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 310C0AD27251F55FD3490A83FE1A98D6 /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47C80D335FB70239B02FE6776FBEEAA /* XCDYouTubeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D357F4438B530B5D2B90EEEE053BDE3B /* XCDYouTubeKit-dummy.m */; };
+		D6EBDF72673F978D8AFAD5ABB54FC570 /* XCDYouTubeError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA618F47E939DA4D567CFF8DD6C2CC3 /* XCDYouTubeError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA3AE63791BFF9E31DC27E90E533600 /* CRToastConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8BBB98B309E47839D83D7852D36457 /* CRToastConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E014F723E078700598177D2BF38F4074 /* RATreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2D3F1A3D734BD75C0CD6F67E1D941B /* RATreeNode.m */; };
+		E64916BEA228E8731FF32B2576B69B4A /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F5E27550613B9900CCE5FCF9C93C1 /* XCDYouTubeVideoPlayerViewController.m */; };
+		E86D01A933994CA973B55581FF7B9175 /* RATreeView+RATreeNodeCollectionControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D10365B662DF1B8654F2943892161C /* RATreeView+RATreeNodeCollectionControllerDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F189B94FC3AC1EED3A0095F680EF16E0 /* RATreeNodeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8274E6AF0F65590721EB7C0F431BFFFF /* RATreeNodeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F25C1571818ED8A54740EBD2920B3C50 /* RATreeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC433D4D99D1ABD3A8B05A001B4EFE4 /* RATreeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2ACEE3E73C3E02AA5FA0EF7F4393CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85451E8985C7D01FAD682DEB4FFA45E2 /* Foundation.framework */; };
+		F4210E01B1BB156098991634203AA893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85451E8985C7D01FAD682DEB4FFA45E2 /* Foundation.framework */; };
+		F6E26CD573CA212337217587C7F94780 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 844511D7DDA44E01EF42C7B6F00AB99E /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C0FFFE505B1D7BB69176A0B136B88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 266E27D897FD7FD68078059CF4D7455F;
+			remoteInfo = JVFloatLabeledTextField;
+		};
+		29C5CDA3FF3741D1B6AEC28524936792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133C805BF4CBF0E42CE3B10E837372F4;
+			remoteInfo = SWRevealViewController;
+		};
+		3992CBA9ADC6FCAA65339819F6C44658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ED09277400738B478031399F7783B3D;
+			remoteInfo = RATreeView;
+		};
+		5D22C03465FD718E1392FF9C2C867B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7112751ACED56349A420B879DDAD76F8;
+			remoteInfo = CRToast;
+		};
+		7AA2CD40DED4870203108E19A0234A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E51863E55D2A881B63ECD65CB1BFB23;
+			remoteInfo = XCDYouTubeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B14ECF6B38BE5EA6ECF12758E0EBCD /* XCDYouTubeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeKit-prefix.pch"; sourceTree = "<group>"; };
+		057BB654C929A6C312F5C3777012C64A /* CRToastWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastWindow.h; path = CRToast/CRToastWindow.h; sourceTree = "<group>"; };
+		0722A058984B24CC24C9348453A3DAA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		07D72620B449798A952B0B651463D8F4 /* libRATreeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRATreeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0883D9456F5497AFC4EB59F578C9EA29 /* XCDYouTubeLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeLogger.m; path = XCDYouTubeKit/XCDYouTubeLogger.m; sourceTree = "<group>"; };
+		08CE7EF2402BD9301FAED6795C5881D2 /* Pods-iost3h-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iost3h-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BEA0FA9E59BC2EF41DC57116BD171BB /* CRToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToast.h; path = CRToast/CRToast.h; sourceTree = "<group>"; };
+		0C7A4561925AB0C56170F60E33B7D751 /* RATreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RATreeView-prefix.pch"; sourceTree = "<group>"; };
+		0D8BBB98B309E47839D83D7852D36457 /* CRToastConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastConfig.h; path = CRToast/CRToastConfig.h; sourceTree = "<group>"; };
+		0E9BAF14695BDF42347EED4656BF0929 /* RATreeView+Enums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+Enums.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+Enums.h"; sourceTree = "<group>"; };
+		13F47DE0F14BFFD94B5C39AF2424816F /* libPods-iost3h.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iost3h.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16595A00CDECC7C23C19D986CA322F33 /* JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
+		17728624F11992D7659D9029440AC110 /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoWebpage.h; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
+		1838619432834BDF9653759FFCE7ACED /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoOperation.m; path = XCDYouTubeKit/XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
+		1894AC3C9CAB7D073CBA388877E2B635 /* JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
+		1B57BF029F5E14FB1B2B9E847D21DCE3 /* RATreeView+TableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+TableViewDelegate.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDelegate.h"; sourceTree = "<group>"; };
+		1BFC0327F6EA661326F5C7D0A6B87426 /* CRToastLayoutHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastLayoutHelpers.h; path = CRToast/CRToastLayoutHelpers.h; sourceTree = "<group>"; };
+		1DC433D4D99D1ABD3A8B05A001B4EFE4 /* RATreeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeView.h; path = RATreeView/RATreeView/RATreeView.h; sourceTree = "<group>"; };
+		1EF1AA98BAD30A20895F84C2D1ADB10B /* CRToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRToast-dummy.m"; sourceTree = "<group>"; };
+		20EA376BDC44D16B1DB0551261B58739 /* CRToastManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastManager.h; path = CRToast/CRToastManager.h; sourceTree = "<group>"; };
+		24FA268B41692D8DA4315F1AED5E92F7 /* RATreeNodeCollectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeCollectionController.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeCollectionController.m"; sourceTree = "<group>"; };
+		26DA8E02A58333F31567AC86E9CA1BAF /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoWebpage.m; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
+		27EEFBCB34FE7787B8F365259169A410 /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubePlayerScript.m; path = XCDYouTubeKit/XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
+		2B47A593E92220B20368C70C9A4ECF1E /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		3105A4FBCF6D889EC34403F40196C32A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		310C0AD27251F55FD3490A83FE1A98D6 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		33CE71D397DF593110AFE8971FDE6720 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoOperation.h; path = XCDYouTubeKit/XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		3609B9E1551E20B20163F7CE17172844 /* CRToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRToast-prefix.pch"; sourceTree = "<group>"; };
+		37BCD6848A7639ABBF6A1865F2D8A12D /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		43CBC2D846046E728EB7326815AAC993 /* CRToastManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastManager.m; path = CRToast/CRToastManager.m; sourceTree = "<group>"; };
+		4458BE25695845D9623BD383F18BED88 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		468BD78D51A3F8CAB6DD58AE56563FF4 /* RATreeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeView.m; path = RATreeView/RATreeView/RATreeView.m; sourceTree = "<group>"; };
+		4745694FE7B97CB548A3B51435775B19 /* XCDYouTubeLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeLogger.h; path = XCDYouTubeKit/XCDYouTubeLogger.h; sourceTree = "<group>"; };
+		48F9C58A9D5BB08B6E2BC40A846A42A0 /* CRToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRToast.xcconfig; sourceTree = "<group>"; };
+		4A477AAD24F082E988882FBA490BF53F /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		4CB8529A0322E44C72D55C15C6638F5D /* libXCDYouTubeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXCDYouTubeKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD23AE26A83B21D6860B63391FA09FB /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoPlayerViewController.h; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.h; sourceTree = "<group>"; };
+		57FBE46A12337139605B233B0C6880E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		58136E5CD1ACD4D7EC4B73A7A79F51E4 /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideo.h; path = XCDYouTubeKit/XCDYouTubeVideo.h; sourceTree = "<group>"; };
+		5CFD2202F5095DE188741372C9CEFE1C /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeVideo+Private.h"; path = "XCDYouTubeKit/XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
+		5DAC104210122A97BF574DA001E4D546 /* libJVFloatLabeledTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJVFloatLabeledTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CC5161626BD13FB10D0853836EA3CF /* RATreeView_ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeView_ClassExtension.h; path = "RATreeView/RATreeView/Private Files/RATreeView_ClassExtension.h"; sourceTree = "<group>"; };
+		6B7F46309C3D24F2DD1BDBCF8FDFABF9 /* SWRevealViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController-dummy.m"; sourceTree = "<group>"; };
+		6BC4479469991213F91CD234BBF0C2F8 /* RABatchChangeEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RABatchChangeEntity.h; path = "RATreeView/RATreeView/Private Files/RABatchChangeEntity.h"; sourceTree = "<group>"; };
+		6D7722CE17B0D6C34274F585FFA5334D /* XCDYouTubeLogger+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeLogger+Private.h"; path = "XCDYouTubeKit/XCDYouTubeLogger+Private.h"; sourceTree = "<group>"; };
+		71C9F0F0184B8345B05E2D19CCA437A4 /* RATreeNodeItem+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeNodeItem+Private.m"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+Private.m"; sourceTree = "<group>"; };
+		750C26294FED2C575762DDC31B273D19 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		76756FEFD48C39585FE452C1CF376015 /* RATreeNode_ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNode_ClassExtension.h; path = "RATreeView/RATreeView/Private Files/RATreeNode_ClassExtension.h"; sourceTree = "<group>"; };
+		80EF008712A548D007ABC39C1DBBA4CC /* Pods-iost3h-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iost3h-resources.sh"; sourceTree = "<group>"; };
+		8274E6AF0F65590721EB7C0F431BFFFF /* RATreeNodeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeController.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeController.h"; sourceTree = "<group>"; };
+		82DFFEF6AAF94B32F2F01A8B1336C330 /* RATableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATableView.m; path = "RATreeView/RATreeView/Private Files/RATableView.m"; sourceTree = "<group>"; };
+		844511D7DDA44E01EF42C7B6F00AB99E /* SWRevealViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		85451E8985C7D01FAD682DEB4FFA45E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8782D20D03252E81D992DFAF775DE52C /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		87896C6273F9C8D5335D3D62DF185C7B /* XCDYouTubeClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeClient.m; path = XCDYouTubeKit/XCDYouTubeClient.m; sourceTree = "<group>"; };
+		8F5EE8107274C85012334EE1DE7E8BF0 /* SWRevealViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWRevealViewController.xcconfig; sourceTree = "<group>"; };
+		9195418F45138D269442C36F068BC278 /* libSWRevealViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSWRevealViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D1A707BC4297FCAE80725BC6749E46 /* RATreeView+TableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+TableViewDataSource.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDataSource.m"; sourceTree = "<group>"; };
+		9A4D8CA21E8A9B6FF14692B862D6DF1E /* XCDYouTubeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCDYouTubeKit.xcconfig; sourceTree = "<group>"; };
+		9CA618F47E939DA4D567CFF8DD6C2CC3 /* XCDYouTubeError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeError.h; path = XCDYouTubeKit/XCDYouTubeError.h; sourceTree = "<group>"; };
+		A2474459D838F349E3239B1CD7A17CEC /* Pods-iost3h.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iost3h.release.xcconfig"; sourceTree = "<group>"; };
+		A2C489858679698E4BD1C135FAFCCFA3 /* RATreeNodeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeController.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeController.m"; sourceTree = "<group>"; };
+		A3C97E6D8771AC731EEFD5DFFB5C100E /* RATreeView+Enums.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+Enums.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+Enums.m"; sourceTree = "<group>"; };
+		A3E69AEC6D5A5759342FB2459D34AFC2 /* RATreeNodeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeItem.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem.h"; sourceTree = "<group>"; };
+		A552361A808A175D07711F64C16A86D9 /* RATreeNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNode.h; path = "RATreeView/RATreeView/Private Files/RATreeNode.h"; sourceTree = "<group>"; };
+		A647E615213994FE0A6D51B67350C513 /* XCDYouTubeClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeClient.h; path = XCDYouTubeKit/XCDYouTubeClient.h; sourceTree = "<group>"; };
+		A6C0C6BADAA295ACCEB134E5D01D7616 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubePlayerScript.h; path = XCDYouTubeKit/XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
+		A852CA9B7F3D4EC7E1D3B7C3D0885CA2 /* RABatchChanges.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RABatchChanges.h; path = "RATreeView/RATreeView/Private Files/RABatchChanges.h"; sourceTree = "<group>"; };
+		A9D91B33A85374D22F6A6C145B65DF2B /* libCRToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCRToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD3EA204F74B071325BE12EFCB785F3 /* RATreeNodeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeItem.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem.m"; sourceTree = "<group>"; };
+		AD2D3F1A3D734BD75C0CD6F67E1D941B /* RATreeNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNode.m; path = "RATreeView/RATreeView/Private Files/RATreeNode.m"; sourceTree = "<group>"; };
+		AD45F99A38C5FE2956A46E58E35B41C1 /* CRToastConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastConfig.m; path = CRToast/CRToastConfig.m; sourceTree = "<group>"; };
+		B4B72366B75EBFB2FFBB81250460675F /* RATreeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RATreeView-dummy.m"; sourceTree = "<group>"; };
+		B52680B79A6EA9977030EB4F81534966 /* CRToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastView.h; path = CRToast/CRToastView.h; sourceTree = "<group>"; };
+		B5CFCA00422E06B5D4D2CDA578F6E251 /* CRToastWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastWindow.m; path = CRToast/CRToastWindow.m; sourceTree = "<group>"; };
+		B7B6CE96C5325B452BB4F184D47478A3 /* RATreeView+TableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+TableViewDataSource.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDataSource.h"; sourceTree = "<group>"; };
+		C1D10365B662DF1B8654F2943892161C /* RATreeView+RATreeNodeCollectionControllerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+RATreeNodeCollectionControllerDataSource.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+RATreeNodeCollectionControllerDataSource.h"; sourceTree = "<group>"; };
+		C4012C078AD14998E7FAF3FB08E2631A /* RATreeView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+Private.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+Private.h"; sourceTree = "<group>"; };
+		C489666B983509F8E2C950D5D06FA5D2 /* RATreeNodeItem+ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeNodeItem+ClassExtension.h"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+ClassExtension.h"; sourceTree = "<group>"; };
+		CBD06A490E56A8069EBA19D1CD0DD27A /* RATreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RATreeView.xcconfig; sourceTree = "<group>"; };
+		CBE2DFBE4FB8F3E77D76A6007F71A431 /* Pods-iost3h-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iost3h-frameworks.sh"; sourceTree = "<group>"; };
+		CC79CB53B9CC80C9DED3983D4F91857B /* RATreeView+TableViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+TableViewDelegate.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDelegate.m"; sourceTree = "<group>"; };
+		CD8F5E27550613B9900CCE5FCF9C93C1 /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoPlayerViewController.m; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.m; sourceTree = "<group>"; };
+		CF7542CEBAA26682C57E22FBFA2F802E /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideo.m; path = XCDYouTubeKit/XCDYouTubeVideo.m; sourceTree = "<group>"; };
+		D0BE21EC7B455733F355114B97C611E3 /* RATreeNodeItem+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeNodeItem+Private.h"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+Private.h"; sourceTree = "<group>"; };
+		D357F4438B530B5D2B90EEEE053BDE3B /* XCDYouTubeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCDYouTubeKit-dummy.m"; sourceTree = "<group>"; };
+		D388FCFE62514F06979A39680B3335B8 /* CRToastViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastViewController.h; path = CRToast/CRToastViewController.h; sourceTree = "<group>"; };
+		D5846CD83EF6071F8D9CD8EF5C7672FB /* RATreeView+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+Private.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+Private.m"; sourceTree = "<group>"; };
+		D5E986C473517F1CF9402C9671371B5F /* RABatchChanges.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RABatchChanges.m; path = "RATreeView/RATreeView/Private Files/RABatchChanges.m"; sourceTree = "<group>"; };
+		D900DF85FA94223C84C4A1D465DD906D /* Pods-iost3h.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iost3h.debug.xcconfig"; sourceTree = "<group>"; };
+		DECC279F1F4CF744A7269A35A34AC8CA /* Pods-iost3h-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iost3h-dummy.m"; sourceTree = "<group>"; };
+		F05A30DDB7A4E89C00B9C53131CE9C9A /* XCDYouTubeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeKit.h; path = XCDYouTubeKit/XCDYouTubeKit.h; sourceTree = "<group>"; };
+		F08163132E124DE0379E98E8FCC2D246 /* JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFloatLabeledTextField.xcconfig; sourceTree = "<group>"; };
+		F13C080A29EFEF3ECDC8F7B4C5D86AC0 /* RATreeNodeCollectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeCollectionController.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeCollectionController.h"; sourceTree = "<group>"; };
+		F25D6E233C77DCDD259C786AFA35F7C6 /* SWRevealViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		F28999904F0E16CCFBE07215DA649A6D /* CRToastViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastViewController.m; path = CRToast/CRToastViewController.m; sourceTree = "<group>"; };
+		F41AA183B0B3D94CD6B7F2A828729C3C /* RATableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATableView.h; path = "RATreeView/RATreeView/Private Files/RATableView.h"; sourceTree = "<group>"; };
+		F451A90E49ADF78B4446BD0154F834B6 /* RABatchChangeEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RABatchChangeEntity.m; path = "RATreeView/RATreeView/Private Files/RABatchChangeEntity.m"; sourceTree = "<group>"; };
+		F536F7B84C7E48BC55E56EADD563FCE7 /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeOperation.h; path = XCDYouTubeKit/XCDYouTubeOperation.h; sourceTree = "<group>"; };
+		FA66FC543DDEC96AD54D71E10C41B082 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+RATreeNodeCollectionControllerDataSource.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+RATreeNodeCollectionControllerDataSource.m"; sourceTree = "<group>"; };
+		FF3836452954A2F4C4B71B386BA21F26 /* CRToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastView.m; path = CRToast/CRToastView.m; sourceTree = "<group>"; };
+		FFAACD4540593E135628AD15AF34A77A /* Pods-iost3h-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iost3h-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFD4578BA33A95AF8D8D2193FB93A154 /* SWRevealViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E99BF31333DE1C9C696A0F31AA20EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABADDDD8975DC41B45491BFDE30435C8 /* CoreGraphics.framework in Frameworks */,
+				383884C9BEA298CF4FCF90CEC1723C05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3845E644E763732844837C211C833E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4210E01B1BB156098991634203AA893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471FDE5600EA20AA15CAF506B6BBB04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CF2812E4086DE78513F6831828BA35 /* Foundation.framework in Frameworks */,
+				65F0F441949DFC923D1BC88D0B5A43E6 /* JavaScriptCore.framework in Frameworks */,
+				AC3A5E38E9A285B7DF5963AD70DC7D4B /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6969B3ADC0762F90011E3BFADC043020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3311808D5190FB0E10B3974FBEBC620C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3B643E4451C0CA25C73FCE3CA5D090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2ACEE3E73C3E02AA5FA0EF7F4393CBA /* Foundation.framework in Frameworks */,
+				4D067C25E11B77A40849965454AD3F5E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E4F46545B66736C509A2CA866A7E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F25932906A453FB9757F51FDFB2F0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02911B3493994084873CF8802A1BCC4E /* RATreeView */ = {
+			isa = PBXGroup;
+			children = (
+				6BC4479469991213F91CD234BBF0C2F8 /* RABatchChangeEntity.h */,
+				F451A90E49ADF78B4446BD0154F834B6 /* RABatchChangeEntity.m */,
+				A852CA9B7F3D4EC7E1D3B7C3D0885CA2 /* RABatchChanges.h */,
+				D5E986C473517F1CF9402C9671371B5F /* RABatchChanges.m */,
+				F41AA183B0B3D94CD6B7F2A828729C3C /* RATableView.h */,
+				82DFFEF6AAF94B32F2F01A8B1336C330 /* RATableView.m */,
+				A552361A808A175D07711F64C16A86D9 /* RATreeNode.h */,
+				AD2D3F1A3D734BD75C0CD6F67E1D941B /* RATreeNode.m */,
+				76756FEFD48C39585FE452C1CF376015 /* RATreeNode_ClassExtension.h */,
+				F13C080A29EFEF3ECDC8F7B4C5D86AC0 /* RATreeNodeCollectionController.h */,
+				24FA268B41692D8DA4315F1AED5E92F7 /* RATreeNodeCollectionController.m */,
+				8274E6AF0F65590721EB7C0F431BFFFF /* RATreeNodeController.h */,
+				A2C489858679698E4BD1C135FAFCCFA3 /* RATreeNodeController.m */,
+				A3E69AEC6D5A5759342FB2459D34AFC2 /* RATreeNodeItem.h */,
+				AAD3EA204F74B071325BE12EFCB785F3 /* RATreeNodeItem.m */,
+				C489666B983509F8E2C950D5D06FA5D2 /* RATreeNodeItem+ClassExtension.h */,
+				D0BE21EC7B455733F355114B97C611E3 /* RATreeNodeItem+Private.h */,
+				71C9F0F0184B8345B05E2D19CCA437A4 /* RATreeNodeItem+Private.m */,
+				1DC433D4D99D1ABD3A8B05A001B4EFE4 /* RATreeView.h */,
+				468BD78D51A3F8CAB6DD58AE56563FF4 /* RATreeView.m */,
+				0E9BAF14695BDF42347EED4656BF0929 /* RATreeView+Enums.h */,
+				A3C97E6D8771AC731EEFD5DFFB5C100E /* RATreeView+Enums.m */,
+				C4012C078AD14998E7FAF3FB08E2631A /* RATreeView+Private.h */,
+				D5846CD83EF6071F8D9CD8EF5C7672FB /* RATreeView+Private.m */,
+				C1D10365B662DF1B8654F2943892161C /* RATreeView+RATreeNodeCollectionControllerDataSource.h */,
+				FA66FC543DDEC96AD54D71E10C41B082 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */,
+				B7B6CE96C5325B452BB4F184D47478A3 /* RATreeView+TableViewDataSource.h */,
+				93D1A707BC4297FCAE80725BC6749E46 /* RATreeView+TableViewDataSource.m */,
+				1B57BF029F5E14FB1B2B9E847D21DCE3 /* RATreeView+TableViewDelegate.h */,
+				CC79CB53B9CC80C9DED3983D4F91857B /* RATreeView+TableViewDelegate.m */,
+				68CC5161626BD13FB10D0853836EA3CF /* RATreeView_ClassExtension.h */,
+				933A5D96775FE816C1A43D7D613844CF /* Support Files */,
+			);
+			path = RATreeView;
+			sourceTree = "<group>";
+		};
+		1096A42A86E04E744DAC6DCECA3F9F4C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B04D441F1EF80EFD1949355007696D5 /* Pods-iost3h */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		18262B74FB101FCC3923900C07D975E5 /* CRToast */ = {
+			isa = PBXGroup;
+			children = (
+				0BEA0FA9E59BC2EF41DC57116BD171BB /* CRToast.h */,
+				0D8BBB98B309E47839D83D7852D36457 /* CRToastConfig.h */,
+				AD45F99A38C5FE2956A46E58E35B41C1 /* CRToastConfig.m */,
+				1BFC0327F6EA661326F5C7D0A6B87426 /* CRToastLayoutHelpers.h */,
+				20EA376BDC44D16B1DB0551261B58739 /* CRToastManager.h */,
+				43CBC2D846046E728EB7326815AAC993 /* CRToastManager.m */,
+				B52680B79A6EA9977030EB4F81534966 /* CRToastView.h */,
+				FF3836452954A2F4C4B71B386BA21F26 /* CRToastView.m */,
+				D388FCFE62514F06979A39680B3335B8 /* CRToastViewController.h */,
+				F28999904F0E16CCFBE07215DA649A6D /* CRToastViewController.m */,
+				057BB654C929A6C312F5C3777012C64A /* CRToastWindow.h */,
+				B5CFCA00422E06B5D4D2CDA578F6E251 /* CRToastWindow.m */,
+				A1A6FB5BBCB37904647382CA73A98A68 /* Support Files */,
+			);
+			path = CRToast;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FA2B888EF0ACCE281F49E1958F75FF9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		210B6D97A92017CF5A2A391850FB0248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D91B33A85374D22F6A6C145B65DF2B /* libCRToast.a */,
+				5DAC104210122A97BF574DA001E4D546 /* libJVFloatLabeledTextField.a */,
+				13F47DE0F14BFFD94B5C39AF2424816F /* libPods-iost3h.a */,
+				07D72620B449798A952B0B651463D8F4 /* libRATreeView.a */,
+				9195418F45138D269442C36F068BC278 /* libSWRevealViewController.a */,
+				4CB8529A0322E44C72D55C15C6638F5D /* libXCDYouTubeKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A07B60015FC53958DFA3DFE84532B92 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				844511D7DDA44E01EF42C7B6F00AB99E /* SWRevealViewController.h */,
+				F25D6E233C77DCDD259C786AFA35F7C6 /* SWRevealViewController.m */,
+				FBE9AE27A8C717C0B3451D24FCE38D61 /* Support Files */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		3FA2B888EF0ACCE281F49E1958F75FF9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0722A058984B24CC24C9348453A3DAA1 /* CoreGraphics.framework */,
+				85451E8985C7D01FAD682DEB4FFA45E2 /* Foundation.framework */,
+				3105A4FBCF6D889EC34403F40196C32A /* JavaScriptCore.framework */,
+				4458BE25695845D9623BD383F18BED88 /* MediaPlayer.framework */,
+				57FBE46A12337139605B233B0C6880E4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5542BA57E658E74DB635CDB32E4D944A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F08163132E124DE0379E98E8FCC2D246 /* JVFloatLabeledTextField.xcconfig */,
+				1894AC3C9CAB7D073CBA388877E2B635 /* JVFloatLabeledTextField-dummy.m */,
+				16595A00CDECC7C23C19D986CA322F33 /* JVFloatLabeledTextField-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVFloatLabeledTextField";
+			sourceTree = "<group>";
+		};
+		589227A6F2EE217531B1B31C9E901F5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18262B74FB101FCC3923900C07D975E5 /* CRToast */,
+				903BCBB89CDBF271CBA8ACC149902189 /* JVFloatLabeledTextField */,
+				02911B3493994084873CF8802A1BCC4E /* RATreeView */,
+				3A07B60015FC53958DFA3DFE84532B92 /* SWRevealViewController */,
+				DDA532DDF0407E90280569D0FD94C7F6 /* XCDYouTubeKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B04D441F1EF80EFD1949355007696D5 /* Pods-iost3h */ = {
+			isa = PBXGroup;
+			children = (
+				08CE7EF2402BD9301FAED6795C5881D2 /* Pods-iost3h-acknowledgements.markdown */,
+				FFAACD4540593E135628AD15AF34A77A /* Pods-iost3h-acknowledgements.plist */,
+				DECC279F1F4CF744A7269A35A34AC8CA /* Pods-iost3h-dummy.m */,
+				CBE2DFBE4FB8F3E77D76A6007F71A431 /* Pods-iost3h-frameworks.sh */,
+				80EF008712A548D007ABC39C1DBBA4CC /* Pods-iost3h-resources.sh */,
+				D900DF85FA94223C84C4A1D465DD906D /* Pods-iost3h.debug.xcconfig */,
+				A2474459D838F349E3239B1CD7A17CEC /* Pods-iost3h.release.xcconfig */,
+			);
+			name = "Pods-iost3h";
+			path = "Target Support Files/Pods-iost3h";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				589227A6F2EE217531B1B31C9E901F5A /* Pods */,
+				210B6D97A92017CF5A2A391850FB0248 /* Products */,
+				1096A42A86E04E744DAC6DCECA3F9F4C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		903BCBB89CDBF271CBA8ACC149902189 /* JVFloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				310C0AD27251F55FD3490A83FE1A98D6 /* JVFloatLabeledTextField.h */,
+				4A477AAD24F082E988882FBA490BF53F /* JVFloatLabeledTextField.m */,
+				2B47A593E92220B20368C70C9A4ECF1E /* JVFloatLabeledTextView.h */,
+				750C26294FED2C575762DDC31B273D19 /* JVFloatLabeledTextView.m */,
+				8782D20D03252E81D992DFAF775DE52C /* NSString+TextDirectionality.h */,
+				37BCD6848A7639ABBF6A1865F2D8A12D /* NSString+TextDirectionality.m */,
+				5542BA57E658E74DB635CDB32E4D944A /* Support Files */,
+			);
+			path = JVFloatLabeledTextField;
+			sourceTree = "<group>";
+		};
+		933A5D96775FE816C1A43D7D613844CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBD06A490E56A8069EBA19D1CD0DD27A /* RATreeView.xcconfig */,
+				B4B72366B75EBFB2FFBB81250460675F /* RATreeView-dummy.m */,
+				0C7A4561925AB0C56170F60E33B7D751 /* RATreeView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RATreeView";
+			sourceTree = "<group>";
+		};
+		A1A6FB5BBCB37904647382CA73A98A68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48F9C58A9D5BB08B6E2BC40A846A42A0 /* CRToast.xcconfig */,
+				1EF1AA98BAD30A20895F84C2D1ADB10B /* CRToast-dummy.m */,
+				3609B9E1551E20B20163F7CE17172844 /* CRToast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CRToast";
+			sourceTree = "<group>";
+		};
+		DDA532DDF0407E90280569D0FD94C7F6 /* XCDYouTubeKit */ = {
+			isa = PBXGroup;
+			children = (
+				A647E615213994FE0A6D51B67350C513 /* XCDYouTubeClient.h */,
+				87896C6273F9C8D5335D3D62DF185C7B /* XCDYouTubeClient.m */,
+				9CA618F47E939DA4D567CFF8DD6C2CC3 /* XCDYouTubeError.h */,
+				F05A30DDB7A4E89C00B9C53131CE9C9A /* XCDYouTubeKit.h */,
+				4745694FE7B97CB548A3B51435775B19 /* XCDYouTubeLogger.h */,
+				0883D9456F5497AFC4EB59F578C9EA29 /* XCDYouTubeLogger.m */,
+				6D7722CE17B0D6C34274F585FFA5334D /* XCDYouTubeLogger+Private.h */,
+				F536F7B84C7E48BC55E56EADD563FCE7 /* XCDYouTubeOperation.h */,
+				A6C0C6BADAA295ACCEB134E5D01D7616 /* XCDYouTubePlayerScript.h */,
+				27EEFBCB34FE7787B8F365259169A410 /* XCDYouTubePlayerScript.m */,
+				58136E5CD1ACD4D7EC4B73A7A79F51E4 /* XCDYouTubeVideo.h */,
+				CF7542CEBAA26682C57E22FBFA2F802E /* XCDYouTubeVideo.m */,
+				5CFD2202F5095DE188741372C9CEFE1C /* XCDYouTubeVideo+Private.h */,
+				33CE71D397DF593110AFE8971FDE6720 /* XCDYouTubeVideoOperation.h */,
+				1838619432834BDF9653759FFCE7ACED /* XCDYouTubeVideoOperation.m */,
+				4CD23AE26A83B21D6860B63391FA09FB /* XCDYouTubeVideoPlayerViewController.h */,
+				CD8F5E27550613B9900CCE5FCF9C93C1 /* XCDYouTubeVideoPlayerViewController.m */,
+				17728624F11992D7659D9029440AC110 /* XCDYouTubeVideoWebpage.h */,
+				26DA8E02A58333F31567AC86E9CA1BAF /* XCDYouTubeVideoWebpage.m */,
+				EA00E824B21A9AF379553CA0B1288C1C /* Support Files */,
+			);
+			path = XCDYouTubeKit;
+			sourceTree = "<group>";
+		};
+		EA00E824B21A9AF379553CA0B1288C1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D8CA21E8A9B6FF14692B862D6DF1E /* XCDYouTubeKit.xcconfig */,
+				D357F4438B530B5D2B90EEEE053BDE3B /* XCDYouTubeKit-dummy.m */,
+				03B14ECF6B38BE5EA6ECF12758E0EBCD /* XCDYouTubeKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XCDYouTubeKit";
+			sourceTree = "<group>";
+		};
+		FBE9AE27A8C717C0B3451D24FCE38D61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F5EE8107274C85012334EE1DE7E8BF0 /* SWRevealViewController.xcconfig */,
+				6B7F46309C3D24F2DD1BDBCF8FDFABF9 /* SWRevealViewController-dummy.m */,
+				FFD4578BA33A95AF8D8D2193FB93A154 /* SWRevealViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWRevealViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BDC6479FDEF59D578B3141D5800F6BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF4265A0B18662CDAA57B176823464 /* RABatchChangeEntity.h in Headers */,
+				766777EEA6ED755492051F754BE3FF15 /* RABatchChanges.h in Headers */,
+				865BA8B83459A24EE4F26BEED02F0F0D /* RATableView.h in Headers */,
+				7CA5962EE2E4B06D784150F2C7815C9D /* RATreeNode.h in Headers */,
+				1494EFC8041CD9549C9999438883C4AD /* RATreeNode_ClassExtension.h in Headers */,
+				4FF21BD2926E19D42476E9325DD99DBE /* RATreeNodeCollectionController.h in Headers */,
+				F189B94FC3AC1EED3A0095F680EF16E0 /* RATreeNodeController.h in Headers */,
+				4BA03C0AF6AE2D5057BC2C13287F11F5 /* RATreeNodeItem+ClassExtension.h in Headers */,
+				44B8F7FF76720CBFC782BF18880B6039 /* RATreeNodeItem+Private.h in Headers */,
+				18A100286FAB5923F6DB752899733A38 /* RATreeNodeItem.h in Headers */,
+				9DEBD77449E7AC3BDC531DF6B714FE6C /* RATreeView+Enums.h in Headers */,
+				74FBD5481D866E01A752C2F1FF8CA9F9 /* RATreeView+Private.h in Headers */,
+				E86D01A933994CA973B55581FF7B9175 /* RATreeView+RATreeNodeCollectionControllerDataSource.h in Headers */,
+				CD7324F7725A083EDF9FBD476DA9C8BB /* RATreeView+TableViewDataSource.h in Headers */,
+				59EC9DF41F0A9BB1D3118BE0286A23A4 /* RATreeView+TableViewDelegate.h in Headers */,
+				F25C1571818ED8A54740EBD2920B3C50 /* RATreeView.h in Headers */,
+				A4E02BC88FDD3F4B26F5D23C736C887B /* RATreeView_ClassExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB03CCA1077C149FD6671EFCD64C3AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF5177687FB45610BF82F645C636DFA /* JVFloatLabeledTextField.h in Headers */,
+				8C3C27FFD4B270EC7E8AF5E7C4051A09 /* JVFloatLabeledTextView.h in Headers */,
+				499E5A5E8F45A0E6FC10DBAB17BBB66E /* NSString+TextDirectionality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852BCBD2D34EDA870B300F5818FCC7B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E170E9FA4E54A80BCE013EA5D0AF6C /* CRToast.h in Headers */,
+				DDA3AE63791BFF9E31DC27E90E533600 /* CRToastConfig.h in Headers */,
+				2622D0E3CAD98076B808BAF2C539638C /* CRToastLayoutHelpers.h in Headers */,
+				C7BAC555A9461105A02FFCD0A92E85B2 /* CRToastManager.h in Headers */,
+				C02E12577ECE14C0F87D9B3DDEEB471E /* CRToastView.h in Headers */,
+				5F5B558532C683F858529B73DC185539 /* CRToastViewController.h in Headers */,
+				B57B42090493D66BBD64613266840F8D /* CRToastWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84CA06EE0CD7BB19D907658BE1FF8FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E26CD573CA212337217587C7F94780 /* SWRevealViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC779FC8ED13B05F8E190DA8794CF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5307952F17A5D4C3AF604B59D0402468 /* XCDYouTubeClient.h in Headers */,
+				D6EBDF72673F978D8AFAD5ABB54FC570 /* XCDYouTubeError.h in Headers */,
+				AB6A83D1B2580C77216C8159E09486CA /* XCDYouTubeKit.h in Headers */,
+				938FADDF76D2787772B4745C08FCD470 /* XCDYouTubeLogger+Private.h in Headers */,
+				4362D5E9A833117C86C4B8F01F515349 /* XCDYouTubeLogger.h in Headers */,
+				0A1C8BD07ED35F36B394B3DB9A8DF93D /* XCDYouTubeOperation.h in Headers */,
+				8BBAECB8ED386D139D637759A1501CAA /* XCDYouTubePlayerScript.h in Headers */,
+				A65B1269FBB1BE3D114C06CB209FD396 /* XCDYouTubeVideo+Private.h in Headers */,
+				5E9B10BFED1D41EEAD8427BC22E02121 /* XCDYouTubeVideo.h in Headers */,
+				0165BA84B0F069B06913B8816B01485E /* XCDYouTubeVideoOperation.h in Headers */,
+				963781AF3045B68E6B0DAF9F3BF95D59 /* XCDYouTubeVideoPlayerViewController.h in Headers */,
+				BF0F9F6029317F140D010FDB63DFCE1A /* XCDYouTubeVideoWebpage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		133C805BF4CBF0E42CE3B10E837372F4 /* SWRevealViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CD56A80CD6E8B1227C655F3EBE3DBE /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
+			buildPhases = (
+				4ABDCE73F28C4BAD8C815DA0E57624C5 /* Sources */,
+				04E99BF31333DE1C9C696A0F31AA20EC /* Frameworks */,
+				A84CA06EE0CD7BB19D907658BE1FF8FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWRevealViewController;
+			productName = SWRevealViewController;
+			productReference = 9195418F45138D269442C36F068BC278 /* libSWRevealViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		266E27D897FD7FD68078059CF4D7455F /* JVFloatLabeledTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17BDC6FC1B950393098EDD292C09ECF /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */;
+			buildPhases = (
+				313DB931CE985F1211597D142EEB3C8B /* Sources */,
+				8C3B643E4451C0CA25C73FCE3CA5D090 /* Frameworks */,
+				2AB03CCA1077C149FD6671EFCD64C3AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVFloatLabeledTextField;
+			productName = JVFloatLabeledTextField;
+			productReference = 5DAC104210122A97BF574DA001E4D546 /* libJVFloatLabeledTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2E51863E55D2A881B63ECD65CB1BFB23 /* XCDYouTubeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202F0163F3D13E9138D2FA3970C1B2F0 /* Build configuration list for PBXNativeTarget "XCDYouTubeKit" */;
+			buildPhases = (
+				0A68754746E65BC8917D915C67A8AAF8 /* Sources */,
+				471FDE5600EA20AA15CAF506B6BBB04B /* Frameworks */,
+				AEEC779FC8ED13B05F8E190DA8794CF0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCDYouTubeKit;
+			productName = XCDYouTubeKit;
+			productReference = 4CB8529A0322E44C72D55C15C6638F5D /* libXCDYouTubeKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7112751ACED56349A420B879DDAD76F8 /* CRToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21D10306B52DCF0B835F873237C9DD7 /* Build configuration list for PBXNativeTarget "CRToast" */;
+			buildPhases = (
+				6D227D57C3D12AEAA468F5F603334801 /* Sources */,
+				E0E4F46545B66736C509A2CA866A7E7A /* Frameworks */,
+				852BCBD2D34EDA870B300F5818FCC7B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRToast;
+			productName = CRToast;
+			productReference = A9D91B33A85374D22F6A6C145B65DF2B /* libCRToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9ED09277400738B478031399F7783B3D /* RATreeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BFD782A5A15D2B4664E467A048D2C4 /* Build configuration list for PBXNativeTarget "RATreeView" */;
+			buildPhases = (
+				D48DD98699EEFAD25F2536D04C785DC2 /* Sources */,
+				3845E644E763732844837C211C833E86 /* Frameworks */,
+				1BDC6479FDEF59D578B3141D5800F6BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RATreeView;
+			productName = RATreeView;
+			productReference = 07D72620B449798A952B0B651463D8F4 /* libRATreeView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC7A0232C6D04AC3685F87B8F99B04E1 /* Pods-iost3h */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB55B7CC3FC47F66038993EF1AB3F7AA /* Build configuration list for PBXNativeTarget "Pods-iost3h" */;
+			buildPhases = (
+				3170E42B6267F4C8570BDF165A4F10F5 /* Sources */,
+				6969B3ADC0762F90011E3BFADC043020 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A22027934FF0E2238E73A0AEBD7050 /* PBXTargetDependency */,
+				36D362A52340C48A9B364EB3EB2BB000 /* PBXTargetDependency */,
+				9905EC8B775212FE520B85C439780E38 /* PBXTargetDependency */,
+				16912AFFEB82F91F1A55F2B4F1A54648 /* PBXTargetDependency */,
+				407EAD8EE64DD00770C2A7DF8E407764 /* PBXTargetDependency */,
+			);
+			name = "Pods-iost3h";
+			productName = "Pods-iost3h";
+			productReference = 13F47DE0F14BFFD94B5C39AF2424816F /* libPods-iost3h.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 210B6D97A92017CF5A2A391850FB0248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7112751ACED56349A420B879DDAD76F8 /* CRToast */,
+				266E27D897FD7FD68078059CF4D7455F /* JVFloatLabeledTextField */,
+				AC7A0232C6D04AC3685F87B8F99B04E1 /* Pods-iost3h */,
+				9ED09277400738B478031399F7783B3D /* RATreeView */,
+				133C805BF4CBF0E42CE3B10E837372F4 /* SWRevealViewController */,
+				2E51863E55D2A881B63ECD65CB1BFB23 /* XCDYouTubeKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A68754746E65BC8917D915C67A8AAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1246F6FB61C16B802900DFA3B5E482F /* XCDYouTubeClient.m in Sources */,
+				D47C80D335FB70239B02FE6776FBEEAA /* XCDYouTubeKit-dummy.m in Sources */,
+				48D12F51BE7C4FE0013DC72CA3141C6E /* XCDYouTubeLogger.m in Sources */,
+				673C640B3DE8712FAD0D007B343A9688 /* XCDYouTubePlayerScript.m in Sources */,
+				8FD4304885DCB180618FACCA812A1794 /* XCDYouTubeVideo.m in Sources */,
+				41C6C546166A48183BC43BC34E8ECFBE /* XCDYouTubeVideoOperation.m in Sources */,
+				E64916BEA228E8731FF32B2576B69B4A /* XCDYouTubeVideoPlayerViewController.m in Sources */,
+				C380DF3A3C97B550160E450E6CF5ED21 /* XCDYouTubeVideoWebpage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313DB931CE985F1211597D142EEB3C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740275241245444929B51C5C824BC87F /* JVFloatLabeledTextField-dummy.m in Sources */,
+				0F5B6AC14F58EABEB001C30A452D5268 /* JVFloatLabeledTextField.m in Sources */,
+				1E04E83623789E01EB3D44E0864941E5 /* JVFloatLabeledTextView.m in Sources */,
+				75B9287485714913A1A259FEA70BE606 /* NSString+TextDirectionality.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3170E42B6267F4C8570BDF165A4F10F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6120B32F52C136CB6D8E06CEA4FD3C /* Pods-iost3h-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABDCE73F28C4BAD8C815DA0E57624C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B21F3E6F8AC357B7EC82B3EEC3141CB /* SWRevealViewController-dummy.m in Sources */,
+				828AE01FAA870402CB614AF53E2E21DC /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D227D57C3D12AEAA468F5F603334801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4083EE85F90515D2A5F5D8F50C1A0A /* CRToast-dummy.m in Sources */,
+				10EA6BB10B19B8B24361A48C9C1589E2 /* CRToastConfig.m in Sources */,
+				B63D1A15B47D6952709EC075A77B5EA9 /* CRToastManager.m in Sources */,
+				68FF294BDD19243FF2548D381CEF4A89 /* CRToastView.m in Sources */,
+				8F4941F38DDEA72B6012F7F30AE43478 /* CRToastViewController.m in Sources */,
+				85F16DCC60950257226B83027D668836 /* CRToastWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48DD98699EEFAD25F2536D04C785DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B387B7E701153F9B7EEA5BB2FBECF91 /* RABatchChangeEntity.m in Sources */,
+				3FE2F67A4BB1AABFBDD3407DD261B614 /* RABatchChanges.m in Sources */,
+				18DA80D801FEC3C54F6CD9C95E567CF9 /* RATableView.m in Sources */,
+				E014F723E078700598177D2BF38F4074 /* RATreeNode.m in Sources */,
+				A403DD64404E1D2755A8D15E03C7DB6A /* RATreeNodeCollectionController.m in Sources */,
+				A0C216A026C50157E6F9403085A85B12 /* RATreeNodeController.m in Sources */,
+				BC53CA176ECFC56EBC7D8B2B279FC1E7 /* RATreeNodeItem+Private.m in Sources */,
+				3F753790B7095FCC2026CDDB40E82F9D /* RATreeNodeItem.m in Sources */,
+				AF484620687B0EFCBC62E75E645BFF6A /* RATreeView+Enums.m in Sources */,
+				57C3A30C16B40F39275E584DFC2525AB /* RATreeView+Private.m in Sources */,
+				A2E47238A2AD41693459BD1379209325 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */,
+				585DE37ACFDB0B746883F6F7CA6790BD /* RATreeView+TableViewDataSource.m in Sources */,
+				C896DE2E73DA9E8530B50C2645F3138D /* RATreeView+TableViewDelegate.m in Sources */,
+				7FA5AA10CD2E6C635B463E0495E0DCF0 /* RATreeView-dummy.m in Sources */,
+				BF1457EB1B17450BDDFE523565B054C2 /* RATreeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16912AFFEB82F91F1A55F2B4F1A54648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWRevealViewController;
+			target = 133C805BF4CBF0E42CE3B10E837372F4 /* SWRevealViewController */;
+			targetProxy = 29C5CDA3FF3741D1B6AEC28524936792 /* PBXContainerItemProxy */;
+		};
+		36D362A52340C48A9B364EB3EB2BB000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVFloatLabeledTextField;
+			target = 266E27D897FD7FD68078059CF4D7455F /* JVFloatLabeledTextField */;
+			targetProxy = 03C0FFFE505B1D7BB69176A0B136B88B /* PBXContainerItemProxy */;
+		};
+		407EAD8EE64DD00770C2A7DF8E407764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCDYouTubeKit;
+			target = 2E51863E55D2A881B63ECD65CB1BFB23 /* XCDYouTubeKit */;
+			targetProxy = 7AA2CD40DED4870203108E19A0234A5B /* PBXContainerItemProxy */;
+		};
+		9905EC8B775212FE520B85C439780E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RATreeView;
+			target = 9ED09277400738B478031399F7783B3D /* RATreeView */;
+			targetProxy = 3992CBA9ADC6FCAA65339819F6C44658 /* PBXContainerItemProxy */;
+		};
+		A6A22027934FF0E2238E73A0AEBD7050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CRToast;
+			target = 7112751ACED56349A420B879DDAD76F8 /* CRToast */;
+			targetProxy = 5D22C03465FD718E1392FF9C2C867B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		14F58F0F6DACE5557C4D77616DD58185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08163132E124DE0379E98E8FCC2D246 /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		35274B0F2BB5AB20EC2F0A515B131502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5EE8107274C85012334EE1DE7E8BF0 /* SWRevealViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5593A26FAEECD3903C78F19612340794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD06A490E56A8069EBA19D1CD0DD27A /* RATreeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RATreeView/RATreeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		55B35D182210E2046B8AF08700C6FDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4D8CA21E8A9B6FF14692B862D6DF1E /* XCDYouTubeKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		610D3AFD615B230A7FDD3AD8F060982F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F9C58A9D5BB08B6E2BC40A846A42A0 /* CRToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CRToast/CRToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		64FB3747D8F35DDBDBA9BB7C8BACE854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D900DF85FA94223C84C4A1D465DD906D /* Pods-iost3h.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		66402F07C32EF9F568B6B1CE8A11D905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F9C58A9D5BB08B6E2BC40A846A42A0 /* CRToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CRToast/CRToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8F14DD80484C11A64378BDA5168A311F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2474459D838F349E3239B1CD7A17CEC /* Pods-iost3h.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BA3A033AEF6DDDD9F81599F74F84A971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08163132E124DE0379E98E8FCC2D246 /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2E1C0B357B16AF73077F35ED8A2317E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4D8CA21E8A9B6FF14692B862D6DF1E /* XCDYouTubeKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC6599187200DA0B038BC9F4CCF81D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD06A490E56A8069EBA19D1CD0DD27A /* RATreeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RATreeView/RATreeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EFF3FDB1FE996B78A0EB7312793966B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5EE8107274C85012334EE1DE7E8BF0 /* SWRevealViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19BFD782A5A15D2B4664E467A048D2C4 /* Build configuration list for PBXNativeTarget "RATreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5593A26FAEECD3903C78F19612340794 /* Debug */,
+				EC6599187200DA0B038BC9F4CCF81D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202F0163F3D13E9138D2FA3970C1B2F0 /* Build configuration list for PBXNativeTarget "XCDYouTubeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B35D182210E2046B8AF08700C6FDDC /* Debug */,
+				D2E1C0B357B16AF73077F35ED8A2317E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB55B7CC3FC47F66038993EF1AB3F7AA /* Build configuration list for PBXNativeTarget "Pods-iost3h" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FB3747D8F35DDBDBA9BB7C8BACE854 /* Debug */,
+				8F14DD80484C11A64378BDA5168A311F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21D10306B52DCF0B835F873237C9DD7 /* Build configuration list for PBXNativeTarget "CRToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610D3AFD615B230A7FDD3AD8F060982F /* Debug */,
+				66402F07C32EF9F568B6B1CE8A11D905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17BDC6FC1B950393098EDD292C09ECF /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F58F0F6DACE5557C4D77616DD58185 /* Debug */,
+				BA3A033AEF6DDDD9F81599F74F84A971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CD56A80CD6E8B1227C655F3EBE3DBE /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35274B0F2BB5AB20EC2F0A515B131502 /* Debug */,
+				EFF3FDB1FE996B78A0EB7312793966B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

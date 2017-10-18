@@ -1,0 +1,24 @@
+PODS:
+  - CRToast (0.0.9)
+  - JVFloatLabeledTextField (1.1.1)
+  - RATreeView (2.1.1)
+  - SWRevealViewController (2.3.0)
+  - XCDYouTubeKit (2.5.3)
+
+DEPENDENCIES:
+  - CRToast (~> 0.0)
+  - JVFloatLabeledTextField (~> 1.1)
+  - RATreeView (~> 2.1)
+  - SWRevealViewController (~> 2.3)
+  - XCDYouTubeKit (~> 2.5)
+
+SPEC CHECKSUMS:
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  JVFloatLabeledTextField: 0e5524b097f102036214dd8279edc8ecf08b5e18
+  RATreeView: f40c8fdc7c99eb0aecced77ad20b0c52f4e9a9c4
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  XCDYouTubeKit: 90690f9e3523735dc93b8024269d991b0cfffe78
+
+PODFILE CHECKSUM: fddda2546d24243fed47522221ab64c679feed5e
+
+COCOAPODS: 1.0.1
